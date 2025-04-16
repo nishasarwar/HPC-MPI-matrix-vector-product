@@ -1,0 +1,18 @@
+Running strong scaling test for Question 4...
+sample   type          min_μs    max_μs    avg_μs
+0       compute       108000    182676    160348    
+0       communicate   3200      82388     27337     
+1       compute       107320    180817    159898    
+1       communicate   728       74103     21874     
+2       compute       106986    180580    159164    
+2       communicate   940       74555     22366     
+3       compute       107124    179057    159339    
+3       communicate   508       72516     20333     
+4       compute       106976    178342    159015    
+4       communicate   710       72096     20224     
+
+Totals:
+average compute μs: 159553
+average communicate μs: 22427
+
+Done.
